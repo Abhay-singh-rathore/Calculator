@@ -7,6 +7,31 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/solution_tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/result_tv"
+        android:layout_alignLeft="@id/button_layout"
+        android:layout_alignParentLeft="false"
+        android:layout_margin="16dp"
+        android:text="0"
+        android:textAlignment="textEnd"
+        android:textSize="32dp" />
+
+    <TextView
+        android:id="@+id/result_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_layout"
+        android:layout_alignLeft="@id/button_layout"
+        android:layout_alignParentLeft="false"
+        android:layout_margin="16dp"
+        android:text="0"
+        android:textAlignment="textEnd"
+        android:textSize="64dp" />
+
+
     <LinearLayout
         android:id="@+id/button_layout"
         android:layout_width="match_parent"
@@ -286,5 +311,6 @@
 
     </LinearLayout>
 
-   
+
+
 </RelativeLayout>
